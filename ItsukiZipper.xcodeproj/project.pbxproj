@@ -6,13 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		988CDC4E2D1D463900374A25 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 988CDC4D2D1D463900374A25 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		988CDC4D2D1D463900374A25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		98C1173E2D1CD264009CA4E8 /* ItsukiZipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItsukiZipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		988CDC4C2D1D453800374A25 /* Exceptions for "ReadmeAssets" folder in "ItsukiZipper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				zip.gif,
+			);
+			target = 98C1173D2D1CD264009CA4E8 /* ItsukiZipper */;
+		};
+		98C117572D1CF635009CA4E8 /* Exceptions for "ItsukiZipper" folder in "ItsukiZipper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98C1173D2D1CD264009CA4E8 /* ItsukiZipper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		988CDC4A2D1D452200374A25 /* ReadmeAssets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				988CDC4C2D1D453800374A25 /* Exceptions for "ReadmeAssets" folder in "ItsukiZipper" target */,
+			);
+			path = ReadmeAssets;
+			sourceTree = "<group>";
+		};
 		98C117402D1CD264009CA4E8 /* ItsukiZipper */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98C117572D1CF635009CA4E8 /* Exceptions for "ItsukiZipper" folder in "ItsukiZipper" target */,
+			);
 			path = ItsukiZipper;
 			sourceTree = "<group>";
 		};
@@ -32,6 +65,8 @@
 		98C117352D1CD264009CA4E8 = {
 			isa = PBXGroup;
 			children = (
+				988CDC4D2D1D463900374A25 /* README.md */,
+				988CDC4A2D1D452200374A25 /* ReadmeAssets */,
 				98C117402D1CD264009CA4E8 /* ItsukiZipper */,
 				98C1173F2D1CD264009CA4E8 /* Products */,
 			);
@@ -61,6 +96,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				988CDC4A2D1D452200374A25 /* ReadmeAssets */,
 				98C117402D1CD264009CA4E8 /* ItsukiZipper */,
 			);
 			name = ItsukiZipper;
@@ -109,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988CDC4E2D1D463900374A25 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,10 +290,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ItsukiZipper/Preview Content\"";
-				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ItsukiZipper/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -280,10 +318,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ItsukiZipper/Preview Content\"";
-				DEVELOPMENT_TEAM = NLTYK5T6U3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ItsukiZipper/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

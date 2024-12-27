@@ -10,8 +10,11 @@ import SwiftUI
 @main
 struct ItsukiZipperApp: App {
     var body: some Scene {
-        WindowGroup {
+        Window("Itsuki Zipper", id: "main") {
             ContentView()
         }
+        .windowResizability(.contentSize)
+        .defaultPosition(.center)
+        
     }
 }
